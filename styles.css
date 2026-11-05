@@ -77,3 +77,6 @@ header .brand small{font-size:8px;letter-spacing:2px;margin-top:6px;line-height:
 @media(min-width:741px) and (max-width:1000px){.hero-profile{gap:16px}.hero-profile .profile-photo{flex-basis:140px;width:140px}.hero-profile .profile-name{font-size:25px}.hero-profile .identity{font-size:16px}}
 @media(max-width:740px){header .brand>b{font-size:29px}header .brand small{font-size:7px;letter-spacing:1.4px;margin-top:5px}.hero{padding-top:28px;padding-bottom:50px}.hero-profile{gap:16px;margin:24px 0 28px}.hero-profile .profile-photo{flex-basis:128px;width:128px}.hero-profile .profile-name{font-size:24px}.hero-profile .identity{font-size:15px!important;line-height:1.6;margin-top:10px;gap:5px 10px}.role-item{gap:8px}.role-dot{flex-basis:5px;width:5px;height:5px}}
 @media(max-width:380px){.hero-profile .profile-photo{flex-basis:112px;width:112px}.hero-profile{gap:14px}.hero-profile .profile-name{font-size:21px}.hero-profile .identity{font-size:14px!important}}
+
+/* Assistant evidence uses the same grid and framing as the other ABAP demos. */
+.gallery .assistant-shot{min-width:0}
