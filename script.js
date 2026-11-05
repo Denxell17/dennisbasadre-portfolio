@@ -34,6 +34,10 @@ if (typeof HTMLDialogElement !== 'undefined' && 'showModal' in HTMLDialogElement
   let opener;
   let previousOverflow;
   close.addEventListener('click', () => viewer.close());
+  // Close is the viewer's only interactive control; keep Tab and Shift+Tab inside.
+  viewer.addEventListener('keydown', event => {
+    if (event.key === 'Tab') { event.preventDefault(); close.focus(); }
+  });
   viewer.addEventListener('close', () => {
     document.documentElement.style.overflow = previousOverflow;
     opener?.focus({ preventScroll: true });

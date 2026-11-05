@@ -42,3 +42,16 @@ a:has(>img){cursor:zoom-in}
 .not-found p{max-width:620px}
 .not-found .actions{margin-top:0}
 .not-found .error-code{font-size:clamp(56px,12vw,96px);line-height:1;color:var(--accent);letter-spacing:-.04em}
+
+/* Catalog-driven cards retain the approved grid and full image framing. */
+.project .project-evidence-status{font-size:11px;color:var(--accent);margin-top:15px}
+.automation-detail{padding-top:18px}
+.automation-detail h5{font-size:14px;line-height:1.6;margin:20px 0 8px}
+.automation-detail h5:first-child{margin-top:0}
+.project .automation-detail p{padding-top:0;font-size:13px;line-height:1.85}
+.automation-evidence{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:22px}
+.automation-evidence a{display:flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:5px;padding:8px;background:#152136}
+.automation-evidence img{width:100%;height:auto;object-fit:contain}
+.automation-evidence figcaption{font-size:12px;line-height:1.8;margin-top:9px;overflow-wrap:anywhere}
+.image-unavailable{padding:20px;font-size:13px;color:var(--muted);border:1px solid var(--line);border-radius:5px}
+@media(max-width:740px){.automation-evidence{grid-template-columns:1fr}.project .automation-detail p{font-size:15px}.project .project-evidence-status,.automation-evidence figcaption{font-size:13px}}
