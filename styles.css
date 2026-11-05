@@ -55,3 +55,5 @@ a:has(>img){cursor:zoom-in}
 .automation-evidence figcaption{font-size:12px;line-height:1.8;margin-top:9px;overflow-wrap:anywhere}
 .image-unavailable{padding:20px;font-size:13px;color:var(--muted);border:1px solid var(--line);border-radius:5px}
 @media(max-width:740px){.automation-evidence{grid-template-columns:1fr}.project .automation-detail p{font-size:15px}.project .project-evidence-status,.automation-evidence figcaption{font-size:13px}}
+
+.project>.thumbnail-caption{font-size:12px;line-height:1.7;margin:10px 24px 0;color:var(--muted)}
