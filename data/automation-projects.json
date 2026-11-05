@@ -53,22 +53,6 @@
       },
       "evidence": [
         {
-          "src": "assets/automation/job-search-resume/overview-v1.webp",
-          "alt": {
-            "en": "Conceptual illustration: Job search and resume preparation",
-            "ja": "概念図：求人検索・履歴書作成"
-          },
-          "privacyReviewed": true,
-          "width": 1448,
-          "height": 1086,
-          "id": "overview-v1",
-          "type": "concept",
-          "caption": {
-            "en": "Conceptual overview illustration; not a workflow execution screenshot.",
-            "ja": "ワークフローの概要を示す概念図です。実行画面ではありません。"
-          }
-        },
-        {
           "src": "assets/automation/job-search-resume/workflow-editor-v1.webp",
           "alt": {
             "en": "n8n editor showing job-search, resume, document and notification steps",
@@ -136,22 +120,6 @@
         "type": "concept"
       },
       "evidence": [
-        {
-          "src": "assets/automation/gmail-attachment-organizer/overview-v1.webp",
-          "alt": {
-            "en": "Conceptual illustration: Gmail attachment organization",
-            "ja": "概念図：Gmail添付ファイル整理"
-          },
-          "privacyReviewed": true,
-          "width": 1448,
-          "height": 1086,
-          "id": "overview-v1",
-          "type": "concept",
-          "caption": {
-            "en": "Conceptual overview illustration; not a workflow execution screenshot.",
-            "ja": "ワークフローの概要を示す概念図です。実行画面ではありません。"
-          }
-        },
         {
           "src": "assets/automation/gmail-attachment-organizer/scenario-editor-v1.webp",
           "alt": {
@@ -223,22 +191,6 @@
         "type": "concept"
       },
       "evidence": [
-        {
-          "src": "assets/automation/content-repurposing/overview-v1.webp",
-          "alt": {
-            "en": "Conceptual illustration: Content repurposing and distribution",
-            "ja": "概念図：コンテンツ再活用・配信"
-          },
-          "privacyReviewed": true,
-          "width": 1536,
-          "height": 1024,
-          "id": "overview-v1",
-          "type": "concept",
-          "caption": {
-            "en": "Conceptual overview illustration; not a workflow execution screenshot.",
-            "ja": "ワークフローの概要を示す概念図です。実行画面ではありません。"
-          }
-        },
         {
           "src": "assets/automation/content-repurposing/workflow-start-v1.webp",
           "alt": {
@@ -360,22 +312,6 @@
       },
       "evidence": [
         {
-          "src": "assets/automation/lead-enrichment/overview-v1.webp",
-          "alt": {
-            "en": "Conceptual illustration: Lead enrichment and scoring overview",
-            "ja": "概念図：リード情報補完・スコアリングの概要"
-          },
-          "privacyReviewed": true,
-          "width": 1448,
-          "height": 1086,
-          "id": "overview-v1",
-          "type": "concept",
-          "caption": {
-            "en": "Conceptual overview illustration; not a workflow execution screenshot.",
-            "ja": "ワークフローの概要を示す概念図です。実行画面ではありません。"
-          }
-        },
-        {
           "src": "assets/automation/lead-enrichment/workflow-editor-v1.webp",
           "alt": {
             "en": "Zapier lead enrichment and high-low priority routing workflow",
@@ -444,22 +380,6 @@
         "type": "concept"
       },
       "evidence": [
-        {
-          "src": "assets/automation/rag-chatbot-prototype/overview-v1.webp",
-          "alt": {
-            "en": "Conceptual illustration: RAG chatbot with an illustrated chat interface",
-            "ja": "概念図：チャット画面を描いたRAGチャットボット"
-          },
-          "privacyReviewed": true,
-          "width": 1448,
-          "height": 1086,
-          "id": "overview-v1",
-          "type": "concept",
-          "caption": {
-            "en": "Conceptual overview illustration; not a workflow execution screenshot.",
-            "ja": "ワークフローの概要を示す概念図です。実行画面ではありません。"
-          }
-        },
         {
           "src": "assets/automation/rag-chatbot-prototype/workflow-editor-v1.webp",
           "alt": {
@@ -546,22 +466,6 @@
         "type": "concept"
       },
       "evidence": [
-        {
-          "src": "assets/automation/crm-follow-up/overview-v1.webp",
-          "alt": {
-            "en": "Conceptual illustration: CRM lead follow-up overview",
-            "ja": "概念図：CRMリード対応・フォローアップの概要"
-          },
-          "privacyReviewed": true,
-          "width": 1448,
-          "height": 1086,
-          "id": "overview-v1",
-          "type": "concept",
-          "caption": {
-            "en": "Conceptual overview illustration; not a workflow execution screenshot.",
-            "ja": "ワークフローの概要を示す概念図です。実行画面ではありません。"
-          }
-        },
         {
           "src": "assets/automation/crm-follow-up/workflow-v1.webp",
           "alt": {
