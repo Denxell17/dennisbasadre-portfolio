@@ -68,6 +68,8 @@ header .brand small{font-size:8px;letter-spacing:2px;margin-top:6px;line-height:
 .hero-profile .profile-photo{display:block;flex:0 0 176px;width:176px;height:auto;border:1px solid var(--line);border-radius:12px}
 .hero-profile .profile-name{font-size:30px;font-weight:700;line-height:1.25;color:var(--ink);letter-spacing:-.025em}
 .hero-profile .identity{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:18px;font-weight:650;line-height:1.55;margin:12px 0 0;max-width:none;color:var(--ink)}
+/* Match the profile-role sizes without the older Japanese label override. */
+html[lang=ja] .hero-profile .identity{font-size:18px}
 .role-item{display:inline-flex;align-items:baseline;gap:10px;max-width:100%;min-width:0}
 .role-item>span:last-child{min-width:0}
 .role-dot{display:inline-block;flex:0 0 6px;width:6px;height:6px;background:var(--accent);border-radius:50%;align-self:center}
@@ -75,6 +77,7 @@ header .brand small{font-size:8px;letter-spacing:2px;margin-top:6px;line-height:
 .enlarge-hint{position:absolute;right:10px;bottom:10px;padding:5px 9px;border:1px solid #486076;border-radius:4px;background:#090f1cef;color:var(--accent);font-size:11px;line-height:1.6}
 .hero-enlarge:hover .enlarge-hint,.hero-enlarge:focus-visible .enlarge-hint{background:var(--panel)}
 @media(min-width:741px) and (max-width:1000px){.hero-profile{gap:16px}.hero-profile .profile-photo{flex-basis:140px;width:140px}.hero-profile .profile-name{font-size:25px}.hero-profile .identity{font-size:16px}}
+@media(min-width:741px) and (max-width:1000px){html[lang=ja] .hero-profile .identity{font-size:16px}}
 @media(max-width:740px){header .brand>b{font-size:29px}header .brand small{font-size:7px;letter-spacing:1.4px;margin-top:5px}.hero{padding-top:28px;padding-bottom:50px}.hero-profile{gap:16px;margin:24px 0 28px}.hero-profile .profile-photo{flex-basis:128px;width:128px}.hero-profile .profile-name{font-size:24px}.hero-profile .identity{font-size:15px!important;line-height:1.6;margin-top:10px;gap:5px 10px}.role-item{gap:8px}.role-dot{flex-basis:5px;width:5px;height:5px}}
 @media(max-width:380px){.hero-profile .profile-photo{flex-basis:112px;width:112px}.hero-profile{gap:14px}.hero-profile .profile-name{font-size:21px}.hero-profile .identity{font-size:14px!important}}
 
@@ -85,3 +88,17 @@ header .brand small{font-size:8px;letter-spacing:2px;margin-top:6px;line-height:
 .case-study .gallery>figure{min-width:0}
 .case-study .gallery>figure>a{display:block;position:relative;width:100%;aspect-ratio:16 / 10;padding:12px;overflow:hidden}
 .case-study .gallery>figure>a>img{position:absolute;inset:12px;width:calc(100% - 24px);height:calc(100% - 24px);max-height:none;aspect-ratio:auto;object-fit:contain;object-position:center}
+
+/* Supported Youform iframe; all portfolio styling remains local. */
+.inquiry-panel{max-width:860px;margin-top:32px}
+.inquiry-panel h3{font-size:23px;line-height:1.4;letter-spacing:-.02em}
+.contact .inquiry-panel p{max-width:none;font-size:14px;line-height:1.8;margin-top:16px}
+.youform-frame{display:block;width:100%;height:700px;border:1px solid var(--line);border-radius:8px;background:var(--bg);margin-top:22px}
+.youform-frame:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.contact-privacy{margin-top:20px;border-block:1px solid var(--line);padding-bottom:16px}
+.contact-privacy:not([open]){padding-bottom:0}
+.contact-privacy summary{font-size:14px;line-height:1.7;min-height:48px;align-items:center}
+.contact .contact-privacy p{font-size:13px;line-height:1.85;margin-top:14px}
+.contact-privacy a{text-decoration:underline;text-underline-offset:3px}
+.contact .inquiry-panel .youform-language-note{color:var(--ink)}
+@media(max-width:740px){.inquiry-panel h3{font-size:21px}.youform-frame{height:700px}.contact-privacy summary{font-size:14px}html[lang=ja] .contact h2{font-size:clamp(28px,7.3vw,38px)}}

@@ -17,8 +17,8 @@
         "ja": "求人情報の検索や履歴書の調整には、繰り返しの確認、文書の更新、通知が発生します。"
       },
       "solution": {
-        "en": "The editor shows query validation, job retrieval, per-result processing, resume preparation, document updates, Gmail draft creation and Slack notification steps.",
-        "ja": "エディターには、検索条件の確認、求人取得、結果ごとの処理、履歴書作成、文書更新、Gmailの下書き作成、Slack通知の各ステップが確認できます。"
+        "en": "Connect Slack requests to job retrieval, AI-assisted resume preparation, document updates, Gmail drafts and Slack notifications in one workflow.",
+        "ja": "Slackでの依頼から求人取得、AIを活用した履歴書作成、文書更新、Gmailの下書き作成、Slack通知までを一つのワークフローにまとめた構成です。"
       },
       "workflow": {
         "en": "Slack request → validate query → job API → process results → AI resume preparation → Drive/Docs → Gmail draft and Slack notification.",
@@ -87,8 +87,8 @@
         "ja": "メール添付ファイルの保存、命名、記録を手作業で行うと、繰り返し作業が増えます。"
       },
       "solution": {
-        "en": "The scenario includes attachment listing, upload for analysis, filename generation, Drive upload, a Sheets row and an email notification module.",
-        "ja": "添付ファイルの一覧取得、分析用アップロード、ファイル名の生成、Driveへの保存、Sheetsへの行追加、メール通知の各モジュールを構成しています。"
+        "en": "Connect Gmail attachments to AI-assisted file naming, Google Drive storage and a Google Sheets log, with a notification step.",
+        "ja": "Gmailの添付ファイルを、AIを活用した命名、Google Driveへの保存、Google Sheetsへの記録につなぎ、通知処理も組み込んだ構成です。"
       },
       "workflow": {
         "en": "Watch emails → list attachments → upload for analysis → generate filename → upload to Drive → log in Sheets → email notification.",
@@ -155,8 +155,8 @@
         "ja": "元のコンテンツを複数の媒体に展開するには、文字起こし、内容の調整、投稿処理を繰り返す必要があります。"
       },
       "solution": {
-        "en": "The workflow connects file intake and filtering to AI transcription/content preparation, looping and two configured social publishing paths.",
-        "ja": "ファイル取得と条件確認から、AIによる文字起こし・コンテンツ作成、繰り返し処理、2つのSNS投稿用分岐へつなぐ構成です。"
+        "en": "Connect incoming Drive files to AI transcription and content preparation, then route them through conditional social publishing paths.",
+        "ja": "Driveに届いたファイルをAIによる文字起こし・コンテンツ作成につなぎ、条件に応じてSNS投稿用の分岐へ振り分ける構成です。"
       },
       "workflow": {
         "en": "New Drive file → filter → AI transcription/content preparation → loop → conditional paths → configured Facebook, LinkedIn and Instagram actions. The recorded run completed one path and skipped the alternative.",
@@ -274,8 +274,8 @@
         "ja": "新規リードへの対応を整理するには、関連情報の補完と、次の対応先への振り分けが必要です。"
       },
       "solution": {
-        "en": "The editor shows a lead webhook, company-URL formatting, Apollo integration and high/low priority paths with Sheets, Slack, AI draft and Gmail actions.",
-        "ja": "エディターには、リード受信用Webhook、企業URLの整形、Apollo連携、優先度別の分岐とSheets・Slack・AI下書き・Gmailの処理が確認できます。"
+        "en": "Combine incoming lead data with Apollo enrichment, then use priority-based paths for records, notifications and AI-assisted draft preparation.",
+        "ja": "受信したリード情報にApolloで関連情報を補完し、優先度別の分岐で記録、通知、AIを活用した下書き作成へつなぐ構成です。"
       },
       "workflow": {
         "en": "Incoming lead → format company URL → enrichment → priority paths → record/notify/draft actions as configured.",
@@ -346,8 +346,8 @@
         "ja": "文書を利用するアシスタントには、資料を索引化し、応答に関連する箇所を検索する仕組みが必要です。"
       },
       "solution": {
-        "en": "The editor connects Drive document events, loading/indexing nodes, Supabase retrieval and Gemini model/embedding nodes to a chat agent.",
-        "ja": "Driveの文書イベント、読み込み・索引作成、Supabase検索、Geminiのモデル・埋め込み処理をチャットエージェントにつなぐ構成です。"
+        "en": "Prototype document ingestion and indexing from Drive, Supabase retrieval and Gemini-assisted chat responses in n8n.",
+        "ja": "n8n上で、Driveからの文書取り込み・索引作成、Supabaseによる検索、Geminiを用いたチャット応答の流れを組み立てた試作です。"
       },
       "workflow": {
         "en": "Document create/update/archive paths → loading and index maintenance; chat trigger → retrieval tool and Gemini model → configured response path.",
@@ -431,8 +431,8 @@
         "ja": "リード対応では、準備、見積もり、承認などの進行状況に応じて、異なるフォローアップが必要になります。"
       },
       "solution": {
-        "en": "The workflow branches on status to configure folders/tasks, follow-up and welcome email actions, delays, lookup and filtering.",
-        "ja": "対応状況に応じて分岐し、フォルダー・タスク作成、フォローアップ・案内メール、待機、検索、条件確認を設定しています。"
+        "en": "Use Asana task status to organize conditional folder and task creation, follow-up email actions, delays and checks.",
+        "ja": "Asanaのタスク状況に応じて処理を分岐し、フォルダー・タスク作成、フォローアップメール、待機、条件確認を組み合わせた構成です。"
       },
       "workflow": {
         "en": "Asana task update → status paths → configured Drive/Asana/Gmail actions, with delays and filters in selected paths.",
