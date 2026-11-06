@@ -25,8 +25,8 @@
         "ja": "Slackの依頼 → 検索条件の確認 → 求人API → 結果の処理 → AIによる履歴書作成 → Drive・Docs → Gmailの下書き・Slack通知。"
       },
       "limitations": {
-        "en": "The screenshot demonstrates workflow structure, not a completed run. Generated resumes, delivered notifications and business outcomes have not been verified. The private workflow address has been cropped.",
-        "ja": "スクリーンショットはワークフローの構成を示すもので、実行完了の証拠ではありません。生成された履歴書、通知の到達、業務上の成果は未検証です。非公開のワークフローURLは切り取っています。"
+        "en": "The n8n editor demonstrates connected job-search, AI-assisted resume preparation, document and notification steps. Evidence covers workflow design; generated documents and notification delivery remain outside the demonstrated scope.",
+        "ja": "n8nのエディターで、求人検索、AIを活用した履歴書作成、文書処理、通知をつなぐ構成を紹介しています。確認できる範囲はワークフロー設計で、文書の生成結果や通知の到達は対象外です。"
       },
       "platform": "n8n",
       "category": "job-search",
@@ -64,8 +64,8 @@
           "id": "workflow-editor-v1",
           "type": "workflow",
           "caption": {
-            "en": "Actual workflow editor; browser address bar removed. No completed execution is shown.",
-            "ja": "実際のワークフロー画面です。ブラウザのアドレスバーは除去しています。実行完了は示していません。"
+            "en": "n8n workflow editor — Connected job-search, resume, document and notification steps.",
+            "ja": "n8nワークフロー画面：求人検索、履歴書作成、文書処理、通知のつながり。"
           }
         }
       ],
@@ -95,8 +95,8 @@
         "ja": "メール監視 → 添付ファイルの取得 → 分析用アップロード → ファイル名生成 → Driveへの保存 → Sheetsへの記録 → メール通知。"
       },
       "limitations": {
-        "en": "The captured editor shows per-module operation indicators. It is not a separate completed-run history or proof of saved files, spreadsheet rows or delivered mail. Scheduling was disabled in the capture.",
-        "ja": "撮影されたエディターにはモジュールごとの実行回数が表示されています。独立した実行完了履歴や、保存ファイル、Sheetsの記録、メール到達の確認ではありません。撮影時の定期実行設定は無効です。"
+        "en": "The Make editor shows the attachment-processing sequence and per-module operation indicators, from Gmail intake to file naming, Drive storage and Sheets logging. Scheduling is disabled in this capture; evidence covers the configured scenario rather than confirmed downstream outputs.",
+        "ja": "Makeのエディターで、Gmailでの添付ファイル取得から命名、Driveへの保存、Sheetsへの記録までの構成と、モジュールごとの実行回数を確認できます。撮影時の定期実行は無効で、資料の対象は設定したシナリオです。保存先の出力結果を確認したものではありません。"
       },
       "platform": "Make",
       "category": "email-documents",
@@ -132,8 +132,8 @@
           "id": "scenario-editor-v1",
           "type": "workflow",
           "caption": {
-            "en": "Actual scenario editor with operation indicators. Account/title chrome cropped; disabled schedule control preserved.",
-            "ja": "実行回数の表示がある実際のシナリオ画面です。アカウント名のあるタイトル領域は切り取り、無効の定期実行設定は残しています。"
+            "en": "Make scenario — Attachment-processing modules with operation indicators and the disabled schedule control visible.",
+            "ja": "Makeシナリオ：添付ファイル処理のモジュール、実行回数、無効になっている定期実行設定。"
           }
         }
       ],
@@ -163,8 +163,8 @@
         "ja": "Driveの新規ファイル → 条件確認 → AIによる文字起こし・コンテンツ作成 → 繰り返し処理 → 条件分岐 → Facebook・LinkedIn・Instagramの投稿処理。実行記録では一方の分岐が完了し、もう一方はスキップされています。"
       },
       "limitations": {
-        "en": "The successful-run screenshot reports completed actions on one branch; it does not establish all-branch coverage. Public post contents, publication URLs, client use, time savings and business outcomes have not been independently verified. The run identifier is hidden.",
-        "ja": "成功を示すスクリーンショットは、一方の分岐の処理完了を記録しています。全分岐の動作確認を示すものではありません。公開投稿の内容・URL、顧客による利用、削減時間、業務成果は独立に検証していません。実行識別子は除去しています。"
+        "en": "Zapier editor views demonstrate file intake, AI content preparation and conditional social publishing paths. A recorded successful run shows one branch completed and the alternative skipped. Evidence is limited to that recorded path; public post contents and business outcomes are outside this case study.",
+        "ja": "Zapierの画面で、ファイル取得、AIによるコンテンツ作成、条件別のSNS投稿処理を紹介しています。成功を示す実行記録では、一方の分岐が完了し、もう一方はスキップされています。実行の根拠はその分岐に限られ、公開投稿の内容や業務成果は本事例の対象外です。"
       },
       "platform": "Zapier",
       "category": "content-marketing",
@@ -203,8 +203,8 @@
           "id": "workflow-start-v1",
           "type": "workflow",
           "caption": {
-            "en": "Editor view of the upstream processing steps; account labels hidden. Configuration checks are not execution proof.",
-            "ja": "前半の処理を示すエディター画面です。アカウント名を伏せています。設定のチェック表示は実行完了の証拠ではありません。"
+            "en": "Zapier workflow — File intake, filtering, AI preparation and loop configuration.",
+            "ja": "Zapierワークフロー：ファイル取得、条件確認、AI処理、繰り返し処理の設定。"
           }
         },
         {
@@ -219,8 +219,8 @@
           "id": "workflow-social-paths-v1",
           "type": "workflow",
           "caption": {
-            "en": "Two configured paths containing Facebook Pages, LinkedIn and Instagram actions.",
-            "ja": "Facebook Pages、LinkedIn、Instagramの処理を設定した2つの分岐です。"
+            "en": "Conditional paths — Configured Facebook Pages, LinkedIn and Instagram actions.",
+            "ja": "条件分岐：Facebook Pages、LinkedIn、Instagramの処理設定。"
           }
         },
         {
@@ -235,8 +235,8 @@
           "id": "workflow-overview-v1",
           "type": "workflow",
           "caption": {
-            "en": "Full editor overview; this is configuration structure, not a separate run.",
-            "ja": "ワークフロー全体の構成です。別の実行結果を示すものではありません。"
+            "en": "Full workflow design — Upstream processing and conditional publishing paths.",
+            "ja": "ワークフロー全体：前半の処理と条件別の投稿処理。"
           }
         },
         {
@@ -251,8 +251,8 @@
           "id": "recorded-run-v1",
           "type": "execution",
           "caption": {
-            "en": "Recorded successful run: one branch completed and the alternative was skipped. Original resolution retained; run identifier removed.",
-            "ja": "一方の分岐が完了し、もう一方がスキップされた成功の実行記録です。元の解像度を保ち、実行識別子を除去しています。"
+            "en": "Recorded successful run — One branch completed; the alternative was skipped.",
+            "ja": "成功を示す実行記録：一方の分岐が完了し、もう一方はスキップ。"
           }
         }
       ],
@@ -282,8 +282,8 @@
         "ja": "リード受信 → 企業URLの整形 → 情報補完 → 優先度別の分岐 → 設定した記録・通知・下書き作成。"
       },
       "limitations": {
-        "en": "Workflow structure and an in-use version are visible, not a completed run or generated result. The screenshot does not establish a numeric scoring model, client outcomes or enrichment accuracy.",
-        "ja": "ワークフローの構成と使用中バージョンの表示は確認できますが、実行完了や生成結果は示していません。数値によるスコアリング、顧客成果、補完情報の正確性は未検証です。"
+        "en": "The Zapier editor shows Apollo enrichment, priority-based paths and configured record, notification and AI-draft actions, with an in-use version visible. Evidence covers the workflow configuration; numeric lead scoring, enrichment accuracy and completed outputs are outside the demonstrated scope.",
+        "ja": "Zapierのエディターで、Apolloによる情報補完、優先度別の分岐、記録・通知・AIによる下書き作成の構成と、使用中バージョンの表示を確認できます。資料の対象はワークフロー設定で、数値によるスコアリング、補完情報の精度、処理後の出力結果は対象外です。"
       },
       "platform": "Zapier",
       "category": "lead-management",
@@ -323,8 +323,8 @@
           "id": "workflow-editor-v1",
           "type": "workflow",
           "caption": {
-            "en": "Actual workflow editor. Webhook module labels are visible; private endpoint values are not shown.",
-            "ja": "実際のワークフロー画面です。Webhookのモジュール名は表示されていますが、非公開の接続先URLは表示していません。"
+            "en": "Zapier workflow editor — Apollo enrichment and priority-based follow-up routing.",
+            "ja": "Zapierワークフロー画面：Apolloによる情報補完と優先度別の振り分け。"
           }
         }
       ],
@@ -354,8 +354,8 @@
         "ja": "文書の新規作成・更新・アーカイブ → 読み込み・索引管理。チャット受信 → 検索ツールとGeminiモデル → 応答処理。"
       },
       "limitations": {
-        "en": "This is a workflow prototype, distinct from the currently deployed ABAP AI Assistant and its production stack. Screenshots do not show private document contents, completed indexing, actual chat answers or answer-quality results. No live employee-record access is claimed.",
-        "ja": "現在稼働中のABAP AI Assistantや、その本番構成とは区別したワークフローの試作です。非公開文書の内容、索引作成の完了、実際のチャット応答、回答品質はスクリーンショットで示していません。実業務の従業員データへのアクセスは主張しません。"
+        "en": "This n8n prototype demonstrates document-ingestion and indexing paths, Supabase retrieval and a Gemini-assisted response configuration. It is separate from the deployed ABAP AI Assistant. Evidence covers prototype architecture, rather than completed indexing, evaluated chat answers or live business-record access.",
+        "ja": "n8nの試作画面で、文書の取り込み・索引管理、Supabaseによる検索、Geminiを用いた応答の構成を紹介しています。稼働中のABAP AI Assistantとは別の試作です。資料の対象は構成設計で、索引作成の完了、チャット回答の評価、実業務データへのアクセスを示すものではありません。"
       },
       "platform": "n8n",
       "category": "knowledge-retrieval",
@@ -392,8 +392,8 @@
           "id": "workflow-editor-v1",
           "type": "workflow",
           "caption": {
-            "en": "Prototype editor; session/chat/log strip removed. Node labels do not expose retrieved document contents.",
-            "ja": "試作のエディター画面です。セッション・チャット・ログの領域は除去しています。ノード名に取得文書の内容は表示されていません。"
+            "en": "n8n prototype editor — Document indexing and retrieval-assisted chat paths.",
+            "ja": "n8n試作画面：文書の索引管理と検索を組み合わせたチャット応答の構成。"
           }
         },
         {
@@ -408,8 +408,8 @@
           "id": "workflow-overview-v1",
           "type": "workflow",
           "caption": {
-            "en": "Alternate overview of the same prototype, not another execution or an actual answer screenshot.",
-            "ja": "同じ試作ワークフローの別表示です。追加の実行結果や実際の回答画面ではありません。"
+            "en": "Prototype overview — An alternate view of the same document and chat architecture.",
+            "ja": "試作の全体像：文書処理とチャット応答の構成を別の表示で紹介。"
           }
         }
       ],
@@ -439,8 +439,8 @@
         "ja": "Asanaタスク更新 → 対応状況による分岐 → 設定したDrive・Asana・Gmail処理。一部の分岐には待機と条件確認があります。"
       },
       "limitations": {
-        "en": "These are overlapping editor views, not completed executions. The original warning/step indicator is preserved; its cause is not established here. No delivered email, client payment or commercial result is verified. Paid/closed is a route label only.",
-        "ja": "これらは重複するエディター表示であり、実行完了の記録ではありません。元の警告・ステップ表示は残しており、その原因は本資料では特定していません。メール到達、顧客の支払い、商用成果は未検証です。支払い・完了は分岐名にすぎません。"
+        "en": "The Zapier editor views show status-based CRM follow-up paths using Asana, Drive, Gmail, delays and filters. Original warning/step indicators remain visible and their cause is undiagnosed. Evidence covers configuration; paid/closed is a route label, not a verified payment or completed client outcome.",
+        "ja": "Zapierの画面で、Asana、Drive、Gmail、待機・条件処理を用いた対応状況別のCRMフォローアップ構成を紹介しています。元の警告・ステップ表示は残しており、原因は未特定です。資料の対象は設定内容で、「支払い・完了」は分岐名を表し、入金や顧客対応の完了実績を示すものではありません。"
       },
       "platform": "Zapier",
       "category": "crm-follow-up",
@@ -478,8 +478,8 @@
           "id": "workflow-v1",
           "type": "workflow",
           "caption": {
-            "en": "Version 1 editor with status paths. Warning/step indicator retained; account labels hidden.",
-            "ja": "対応状況別の分岐を示すv1画面です。警告・ステップ表示は残し、アカウント名を伏せています。"
+            "en": "Version 1 — Status-based follow-up paths with the original warning/step indicator visible.",
+            "ja": "バージョン1：対応状況別の分岐と元の警告・ステップ表示。"
           }
         },
         {
@@ -494,8 +494,8 @@
           "id": "workflow-v1-alternate",
           "type": "workflow",
           "caption": {
-            "en": "Alternate view of the same workflow structure; not additional execution evidence.",
-            "ja": "同じワークフロー構成の別表示です。追加の実行結果ではありません。"
+            "en": "Version 1 detail — An alternate view of the same follow-up configuration.",
+            "ja": "バージョン1の詳細：同じフォローアップ構成の別表示。"
           }
         },
         {
@@ -510,8 +510,8 @@
           "id": "workflow-v2",
           "type": "workflow",
           "caption": {
-            "en": "Version 2 overview with the original warning/step indicator preserved. No completed run shown.",
-            "ja": "元の警告・ステップ表示を残したv2の概要です。実行完了は示していません。"
+            "en": "Version 2 — Workflow configuration with the original warning/step indicator visible.",
+            "ja": "バージョン2：ワークフローの設定内容と元の警告・ステップ表示。"
           }
         }
       ],
