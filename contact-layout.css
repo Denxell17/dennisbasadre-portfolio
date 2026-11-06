@@ -1,0 +1,12 @@
+/* Contact navigation only; existing portfolio and Youform styles are preserved. */
+.contact .contact-options{max-width:860px}
+.contact .contact-options h2{font-size:clamp(28px,3vw,34px);line-height:1.25;margin-top:20px}
+.contact .contact-options>p{max-width:none;margin-top:16px;color:var(--muted)}
+.contact .contact-primary{display:flex;width:100%;min-height:58px;margin-top:16px;background:var(--accent);border-color:var(--accent);color:var(--bg);font-size:16px;gap:12px;text-align:center;white-space:normal}
+.contact .contact-primary:hover{color:var(--bg)}
+.contact .contact-secondary-title{margin-top:16px;font-size:14px;font-weight:400;line-height:1.7;letter-spacing:normal;color:var(--muted)}
+.contact .contact-methods{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}
+.contact .contact-methods .button{width:100%;min-width:0;min-height:52px;font-size:14px;gap:12px;text-align:center;white-space:normal}
+.contact .contact-icon{width:18px;height:18px;flex-shrink:0}
+.contact .contact-options .contact-email{font-size:13px;overflow-wrap:anywhere}
+@media(max-width:740px){.contact .contact-methods{grid-template-columns:minmax(0,1fr)}.contact .contact-methods .button{font-size:13px}}
