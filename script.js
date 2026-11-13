@@ -1,3 +1,29 @@
+const themeToggle = document.querySelector('.theme-toggle');
+if (themeToggle && window.portfolioTheme) {
+  const japanese = document.documentElement.lang === 'ja';
+  function updateThemeControl() {
+    const light = document.documentElement.dataset.theme === 'light';
+    const label = japanese
+      ? (light ? 'ダークモードに切り替え' : 'ライトモードに切り替え')
+      : (light ? 'Switch to dark mode' : 'Switch to light mode');
+    themeToggle.setAttribute('aria-label', japanese ? 'ライトモード' : 'Light mode');
+    themeToggle.title = label;
+    themeToggle.setAttribute('aria-pressed', String(light));
+  }
+  updateThemeControl();
+  themeToggle.hidden = false;
+  themeToggle.addEventListener('click', () => {
+    window.portfolioTheme.set(document.documentElement.dataset.theme === 'light' ? 'dark' : 'light');
+    updateThemeControl();
+  });
+  window.addEventListener('storage', event => {
+    if (event.key === 'portfolio-theme' || event.key === null) {
+      window.portfolioTheme.apply(event.newValue);
+      updateThemeControl();
+    }
+  });
+}
+
 const menu = document.querySelector('.menu');
 const nav = document.querySelector('nav');
 function closeMenu() { nav.classList.remove('open'); menu.setAttribute('aria-expanded', 'false'); }

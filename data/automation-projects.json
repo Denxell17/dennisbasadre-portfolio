@@ -24,6 +24,10 @@
         "en": "Slack request → validate query → job API → process results → AI resume preparation → Drive/Docs → Gmail draft and Slack notification.",
         "ja": "Slackの依頼 → 検索条件の確認 → 求人API → 結果の処理 → AIによる履歴書作成 → Drive・Docs → Gmailの下書き・Slack通知。"
       },
+      "expectedOutcomes": {
+        "en": "For job seekers, career-support teams, and recruitment administrators, the workflow is designed to reduce repeated job-listing checks, resume-document preparation, and status messages. Connecting requests, document steps, drafts, and notifications could save administrative time and keep application materials and follow-up information more consistent and organized.",
+        "ja": "求職者、キャリア支援担当、採用事務担当向けに、求人情報の繰り返し確認、履歴書の文書準備、状況連絡の手間を減らすことを目指した設計です。依頼、文書処理、下書き、通知をつなぐことで、事務作業の時間を抑え、応募資料やフォローアップ情報を一貫して整理できる可能性があります。"
+      },
       "limitations": {
         "en": "The n8n editor demonstrates connected job-search, AI-assisted resume preparation, document and notification steps. Evidence covers workflow design; generated documents and notification delivery remain outside the demonstrated scope.",
         "ja": "n8nのエディターで、求人検索、AIを活用した履歴書作成、文書処理、通知をつなぐ構成を紹介しています。確認できる範囲はワークフロー設計で、文書の生成結果や通知の到達は対象外です。"
@@ -94,6 +98,10 @@
         "en": "Watch emails → list attachments → upload for analysis → generate filename → upload to Drive → log in Sheets → email notification.",
         "ja": "メール監視 → 添付ファイルの取得 → 分析用アップロード → ファイル名生成 → Driveへの保存 → Sheetsへの記録 → メール通知。"
       },
+      "expectedOutcomes": {
+        "en": "For small businesses and operations or administration teams handling email attachments, the scenario is designed to reduce manual downloads, file naming, Drive filing, and Sheets data entry. Consistent naming and a centralized tracking log could save document-processing time, reduce filing errors, and make files easier to find and review.",
+        "ja": "メール添付ファイルを扱う小規模事業者、業務運営・事務チーム向けに、手動ダウンロード、命名、Driveへの分類保存、Sheetsへの転記を減らすことを目指した構成です。命名ルールと追跡用の記録を統一することで、文書処理の時間や保存ミスを抑え、ファイルの検索・確認をしやすくできる可能性があります。"
+      },
       "limitations": {
         "en": "The Make editor shows the attachment-processing sequence and per-module operation indicators, from Gmail intake to file naming, Drive storage and Sheets logging. Scheduling is disabled in this capture; evidence covers the configured scenario rather than confirmed downstream outputs.",
         "ja": "Makeのエディターで、Gmailでの添付ファイル取得から命名、Driveへの保存、Sheetsへの記録までの構成と、モジュールごとの実行回数を確認できます。撮影時の定期実行は無効で、資料の対象は設定したシナリオです。保存先の出力結果を確認したものではありません。"
@@ -161,6 +169,10 @@
       "workflow": {
         "en": "New Drive file → filter → AI transcription/content preparation → loop → conditional paths → configured Facebook, LinkedIn and Instagram actions. The recorded run completed one path and skipped the alternative.",
         "ja": "Driveの新規ファイル → 条件確認 → AIによる文字起こし・コンテンツ作成 → 繰り返し処理 → 条件分岐 → Facebook・LinkedIn・Instagramの投稿処理。実行記録では一方の分岐が完了し、もう一方はスキップされています。"
+      },
+      "expectedOutcomes": {
+        "en": "For small marketing teams and content creators, the workflow is designed to reduce repetitive copying, channel-specific draft preparation, and publishing handoffs. Reusing source content through structured preparation and routing could save coordination time and improve consistency across channels. Editorial review and publication checks remain necessary.",
+        "ja": "少人数のマーケティングチームやコンテンツ制作者向けに、繰り返しのコピー、媒体別の下書き準備、投稿担当への引き継ぎを減らすことを目指した設計です。元のコンテンツを整理した処理と分岐で再利用し、調整時間を抑えて媒体間の一貫性を高められる可能性があります。編集内容の確認と投稿結果の確認は引き続き必要です。"
       },
       "limitations": {
         "en": "Zapier editor views demonstrate file intake, AI content preparation and conditional social publishing paths. A recorded successful run shows one branch completed and the alternative skipped. Evidence is limited to that recorded path; public post contents and business outcomes are outside this case study.",
@@ -281,6 +293,10 @@
         "en": "Incoming lead → format company URL → enrichment → priority paths → record/notify/draft actions as configured.",
         "ja": "リード受信 → 企業URLの整形 → 情報補完 → 優先度別の分岐 → 設定した記録・通知・下書き作成。"
       },
+      "expectedOutcomes": {
+        "en": "For sales operations and small business-development teams, the workflow is designed to reduce manual lead lookups, repeated record entry, priority sorting, and follow-up draft preparation. Structured enrichment and routing could save research time, keep handoffs organized, and improve record consistency. Retrieved information and AI drafts still need review.",
+        "ja": "営業企画・営業支援や少人数の事業開発チーム向けに、リード情報の手動検索、重複入力、優先度別の仕分け、連絡文の下書き準備を減らすことを目指した設計です。情報補完と振り分けを整理し、調査時間を抑え、引き継ぎや記録の一貫性を改善できる可能性があります。取得情報やAIの下書きは確認が必要です。"
+      },
       "limitations": {
         "en": "The Zapier editor shows Apollo enrichment, priority-based paths and configured record, notification and AI-draft actions, with an in-use version visible. Evidence covers the workflow configuration; numeric lead scoring, enrichment accuracy and completed outputs are outside the demonstrated scope.",
         "ja": "Zapierのエディターで、Apolloによる情報補完、優先度別の分岐、記録・通知・AIによる下書き作成の構成と、使用中バージョンの表示を確認できます。資料の対象はワークフロー設定で、数値によるスコアリング、補完情報の精度、処理後の出力結果は対象外です。"
@@ -352,6 +368,10 @@
       "workflow": {
         "en": "Document create/update/archive paths → loading and index maintenance; chat trigger → retrieval tool and Gemini model → configured response path.",
         "ja": "文書の新規作成・更新・アーカイブ → 読み込み・索引管理。チャット受信 → 検索ツールとGeminiモデル → 応答処理。"
+      },
+      "expectedOutcomes": {
+        "en": "For internal knowledge and support teams, the prototype explores reducing repeated document searches and manual answer preparation. A structured indexing and retrieval approach could make relevant source material easier to locate and support more consistent responses. Answer accuracy, source coverage, and access controls would need evaluation before operational use.",
+        "ja": "社内ナレッジ管理やサポートチーム向けに、繰り返しの文書検索や回答準備の手間を減らせるかを検討する試作です。索引管理と検索の仕組みを整理し、関連資料を見つけやすくして、回答の一貫性を支援できる可能性があります。実運用の前には、回答精度、資料の網羅性、アクセス制御の評価が必要です。"
       },
       "limitations": {
         "en": "This n8n prototype demonstrates document-ingestion and indexing paths, Supabase retrieval and a Gemini-assisted response configuration. It is separate from the deployed ABAP AI Assistant. Evidence covers prototype architecture, rather than completed indexing, evaluated chat answers or live business-record access.",
@@ -437,6 +457,10 @@
       "workflow": {
         "en": "Asana task update → status paths → configured Drive/Asana/Gmail actions, with delays and filters in selected paths.",
         "ja": "Asanaタスク更新 → 対応状況による分岐 → 設定したDrive・Asana・Gmail処理。一部の分岐には待機と条件確認があります。"
+      },
+      "expectedOutcomes": {
+        "en": "For small sales and client-service teams, the workflow is designed to reduce repeated status checks, folder and task setup, and follow-up email preparation. Status-based paths, delays, and filters could save coordination time, keep next steps organized, and make follow-up more consistent. Warning indicators and branch behavior need validation before operational use.",
+        "ja": "少人数の営業・顧客対応チーム向けに、繰り返しの状況確認、フォルダー・タスクの準備、フォローアップメールの作成を減らすことを目指した設計です。対応状況別の分岐、待機、条件処理により、調整時間を抑え、次の対応を整理し、一貫したフォローアップを支援できる可能性があります。実運用の前に、警告表示や各分岐の動作検証が必要です。"
       },
       "limitations": {
         "en": "The Zapier editor views show status-based CRM follow-up paths using Asana, Drive, Gmail, delays and filters. Original warning/step indicators remain visible and their cause is undiagnosed. Evidence covers configuration; paid/closed is a route label, not a verified payment or completed client outcome.",
